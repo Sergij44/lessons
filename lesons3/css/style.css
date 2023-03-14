@@ -2,7 +2,7 @@
 @import url(reset.css);
  .text {
    color: rgb(48, 12, 227);
-   font-family: "poppins";
+   font-family: "Poppins";
    font-size: 16PX;
 
  }
@@ -23,9 +23,57 @@ color: blueviolet;
 
 .title {
    color: chocolate;
-   font-size: 50PX;
+   font-size: 50px;
    font-style: italic;
    letter-spacing: 50px;
    text-shadow: -4px -10px 5px;
    text-align: center;
+}
+.block {
+   margin-left: 800px;
+   padding-bottom: 400px;
+   background-color: rgb(255, 0, 17);
+
+}
+.inline {
+   text-align: center;
+   white-space: normal;
+   text-shadow: 2px 20px 20px;
+
+
+}
+.block {
+   text-align: center;
+   display: inline-block;
+   width: 100px;
+   overflow: auto;
+   margin-left: 430px;
+
+
+}
+.block5 {
+   margin-right: 500px;
+   background-color: darkgreen;
+   height: 100px;
+   overflow: auto;
+
+
+
+}
+.block2 {
+   margin-left: 600px;
+   margin-top: 10px;
+   width: 30px;
+   height: 30px;
+}
+.block11 {
+   
+
+}
+.block14 {
+   margin-bottom: 10px;
+   background-color: darkorange;
+   width: 100px;
+   margin-left: 300px;
+   height: 100px;
 }
