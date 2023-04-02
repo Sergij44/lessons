@@ -1,0 +1,76 @@
+
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+
+.block_container {
+   width: 100%;
+   margin: 0 auto;
+   font-size: 20px;
+}
+
+.block {
+  
+   max-width: 50%;
+   padding: 10px;
+}
+ol li:first-child {
+   padding-left: 100px;
+   background-color: blue;
+}
+li:active {
+   background-color: aqua;
+   padding-left: 20px;
+}
+.title {
+padding-left: 10px;
+}
+h1:hover {
+   margin: 20%;
+   margin-left: 50%;
+   font-size: 100px;
+   background-color: blueviolet;
+   text-align: center;
+}
+h1::before {
+   content: "!";
+padding-left: 10px;
+width: 20px;
+height: 40px;
+display: inline-block;
+background-color: aquamarine;
+text-align: center;
+border-radius: 10px;
+
+
+}
+
+
+.block2 {
+   
+   max-width: 50%;
+   padding: 10px;
+   background-image: url("../img/checkmark-circle\ 3.png");
+   background-repeat: no-repeat;
+
+}
+
+.block2::before {
+   background-color: blue;
+}
+
+.list {
+
+}
+
+.list2 {
+
+}
+
+.punktu {
+
+}
+.punktu2 {
+
+}
