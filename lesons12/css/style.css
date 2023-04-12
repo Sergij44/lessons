@@ -1,0 +1,82 @@
+
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+
+
+
+
+.conteiner {
+   overflow: clip;
+   width: 100%;
+   z-index:1;
+   margin: 0 auto;
+}
+
+.menu__link {
+   padding: 50px;
+   display: inline-block; 
+}
+
+.menu__item {
+display: inline-block;
+margin-right: 90px;
+position: relative;
+z-index:2;
+
+}
+.conteiner__menu {
+   background-color: aqua;
+   font-size: 20px;
+}
+
+.conteiner__menu-list {
+position: absolute;
+left: 0;
+top: 100%;
+background-color: blue;
+min-width: 150px;
+display: none;
+z-index: 3;
+font-size: 25px
+}
+.conteiner__menu-lists {
+   position: absolute;
+   left: 100%;
+   top: 50%;
+   background-color: greenyellow;
+   font-size: 25px;
+   padding-left: 20px;
+   display: none;
+   min-width: 100px;
+   
+}
+.menu__link-list
+.menu__links  {
+   padding: 5px;
+   display: inline-block; 
+}
+
+
+.menu__item-list:hover .conteiner__menu-lists {
+   display: block;
+
+}
+
+
+.conteiner__list {
+   background-color: blueviolet;
+   font-size: 30px;
+}
+
+.menu__item:hover .conteiner__menu-list {
+   display: block;
+}
+
+
+
+
+
+
+
