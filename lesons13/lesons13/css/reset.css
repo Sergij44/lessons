@@ -1,0 +1,355 @@
+*,
+.body {
+   max-width: 1200px;
+   margin: 0px auto;
+   position: relative;
+   height: 300px;
+
+}
+
+.square {
+   height: 100px;
+   width: 650px;
+   background-color: aqua;
+   margin-top: 200px;
+   border-radius: 40% 10%  8%  8% ;
+   position: absolute;
+   left: 200px;
+   top: 100px;
+   animation: square 6s forwards;
+   
+   
+   
+   
+}
+
+.trapezoid {
+   width: 250px;
+   border-bottom: 100px solid rgb(226, 241, 226);
+   border-left: 140px solid transparent;
+   border-right: 50px solid transparent;
+   position: absolute;
+   left: 180px;
+   bottom: 98px;
+   backface-visibility: visible;
+   
+
+}
+
+.circle-rite {
+   height: 90px;
+   width: 90px;
+   background-color: black;
+   border-radius: 50%;
+   position: absolute;
+   left: 480px;
+   top: 60px;
+   animation: square-circle 5s;
+
+}
+.circle-left {
+   height: 90px;
+   width: 90px;
+   background-color: black;
+   border-radius: 50%;
+   position: absolute;
+   left: 80px;
+   top: 60px;
+   animation: square-circle 5s;
+
+}
+
+.fara-left {
+   height: 30px;
+   width: 80px;
+   background-color: rgb(248, 239, 239);
+   border-radius: 76% 27% 46% 59% / 72% 21% 70% 19% ;
+   position: absolute;
+   left: -2px;
+   top: 16px;
+   transform: rotate(-10deg);
+   animation: fara 5s;
+}
+.fara-left:hover {
+   background-color: rgb(235, 212, 11);
+}
+
+
+.circle-inner-rite {
+   height: 70px;
+   width: 70px;
+   background-color: rgb(235, 21, 21);
+   border-radius: 50%;
+   position: absolute;
+   left: 10px;
+   top: 10px;
+
+}
+.circle-inner-left {
+   height: 70px;
+   width: 70px;
+   background-color:rgb(218, 23, 23) ;
+   border-radius: 50%;
+   position: absolute;
+   left: 10px;
+   top: 10px;
+
+}
+.triangle-left-top {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 28px;
+   top: -1px;
+}
+.triangle-left-bottom {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 28px;
+   top: 35px;
+   transform: rotate(180deg);
+}
+.triangle-left-rite {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 7px;
+   top: 15px;
+   transform: rotate(-90deg);
+}
+.triangle-left-left {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 46px;
+   top: 15px;
+   transform: rotate(90deg);
+  
+}
+.triangle-rite-top {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 28px;
+   top: 35px;
+   transform: rotate(180deg);
+}
+.triangle-rite-bottom {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 28px;
+   top: -1px;
+}
+
+.triangle-rite-left {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 46px;
+   top: 15px;
+   transform: rotate(90deg);
+}
+.triangle-rite-rite {
+   height: 0;
+   width: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 38px solid black;
+   position: absolute;
+   left: 7px;
+   top: 15px;
+   transform: rotate(-90deg);
+
+}
+.pipe-up {
+   width: 20px;
+   border-bottom: 10px solid rgb(50, 111, 197);
+   border-left: 10px solid transparent;
+   border-right: 5px solid transparent;
+   position: absolute;
+   left: 710px;
+   top: -165px;
+   transform: rotate(40deg);
+
+}
+.pipe-down {
+   width: 10px;
+   border-bottom: 10px solid rgb(50, 111, 197);
+   border-left: 10px solid transparent;
+   border-right: 5px solid transparent;
+   position: absolute;
+   left: 728px;
+   top: -170px;
+   transform: rotate(40deg);
+   
+}
+.smouk {
+   animation: smouk 8s forwards ;
+
+}
+.smouk1 {
+   height: 200px;
+   width: 300px;
+   border-radius: 50%;
+   background-color: rgb(61, 59, 59);
+   left: 500px;
+   top: 60px;
+}
+.smouk2 {
+   height: 100px;
+   width: 200px;
+   border-radius: 50%;
+   background-color: rgb(61, 59, 59);
+   left: 450px;
+   top: 40px;
+
+}
+.smouk3 {
+   height: 110px;
+   width: 280px;
+   border-radius: 50%;
+   background-color: rgb(61, 59, 59);
+   left: 400px;
+   top: 30px;
+
+}
+.smouk4 {
+   height: 70px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: rgb(61, 59, 59);
+   left: 300px;
+   top: 5px;
+
+}
+.smouk5 {
+   height: 20px;
+   width: 30px;
+   border-radius: 50%;
+   background-color: rgb(61, 59, 59);
+   left: 260px;
+   top: -8px;
+  
+
+}
+.smouk6 {
+   height: 50px;
+   width: 90px;
+   border-radius: 50%;
+   background-color: rgb(61, 59, 59);
+   left: 250px;
+   top: -10px;
+
+}
+@keyframes smouk {
+   0% {
+      opacity: 0;
+   }
+   30% {
+      opacity: 0;
+   }
+   70% {
+      
+      opacity: 0,5;
+      
+      
+   } 
+   100% {
+
+      opacity: 1;
+      transform: translate(10%, -200px);
+   }
+}
+
+
+
+
+
+
+
+
+@keyframes square {
+   0% {
+      transform: translate(100%, 0px);
+   }
+   30% {
+      transform: translate(0%, 0px);
+      transform: scale(2);
+   }
+   50% {
+      transform: translate(0%, 0px); 
+      transform: rotate(10deg);
+      opacity: 1;
+      
+      
+   } 
+   100% {
+      transform: translate(-1000px, 0px);
+      opacity: 0;
+   }
+   
+}
+
+@keyframes square-circle {
+   0% {
+      transform: rotate(0deg);
+   }
+   30% {
+      transform: rotate(300deg);
+      
+   }
+   50% {
+      transform: rotate(1000deg);
+      
+   }
+   60% {
+      
+      background-color: crimson; 
+      
+   }
+
+   100% {
+      transform: rotate(100deg);
+   }
+  
+   
+}
+
+@keyframes fara {
+   0% {
+       background-color: rgb(224, 224, 129);
+   }
+   50% {
+      background-color: rgb(246, 182, 7);
+  }
+  90% {
+   background-color: rgb(247, 9, 9);
+}
+100% {
+   background-color: rgb(247, 9, 9);
+}
+
+}
